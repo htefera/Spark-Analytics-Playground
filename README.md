@@ -12,7 +12,8 @@ The goal of the project is to process various data using various data mining tas
 The project is decomposed into the following sub tasks
 
 ### [1. Classification](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Classification)
-The goal is to classify email texts as spam or not. To do so, we use logistic regression classificatioin algorithm
+
+The goal is to classify email texts as spam or not. To do so, we use logistic regression and SVM algorithms and compare their accuracies. 
 
 Approach
 
