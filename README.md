@@ -96,7 +96,7 @@ In order to see the recommednation accuracy we need to evaluate both models. For
  Figure : RMSE of Baseline Predictor Vs Collaborative filtering
  </div>
  
-
+<br>
 Recommendations
 As we can see from above, since the ALS model has the lowest RMSE we use it for recommending best movie for all
 users.  
