@@ -1,4 +1,4 @@
-package org.snithish
+package org.haftamu
 
 import org.apache.spark.SparkConf
 import org.apache.spark.serializer.KryoSerializer
