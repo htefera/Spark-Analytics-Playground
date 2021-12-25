@@ -61,7 +61,19 @@ The generated centroids are shown below
 
 ### [3. Recommednation System](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Recommendation%20Systems)
 
-The goal of the task is for creating a movie recommender system.
+The goal of the task is for creating a movie recommender system. 
+Exploration
+1. We read the movies and ratings csv files into dataframes
+2. Join movies and rating dataframes on movieId column to get movieRating dataframe. 
+3. We perform the following exploartion before we actually develop the recommendation system to understand the data
+* Printing the names of the top-10 movies with the largest number of ratings
+* Printing the names of the top-10 movies with the highest average rating grouped by genre
+* Finding the common support for all pair of the first 100 movies 
+For developing the recommender system we apply Baseline Predictor and Collaborative Filtering algorithms
+
+Baseline Predictor
+
+Collaborative Filtering
 
 ### [4. Spatial Data Analysis](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Spatial%20Data%20Analysis)
 
