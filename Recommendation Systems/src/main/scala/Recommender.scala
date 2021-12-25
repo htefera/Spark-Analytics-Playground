@@ -1,4 +1,4 @@
-package org.snithish
+package org.haftamu
 
 import org.apache.spark.ml.evaluation.RegressionEvaluator
 import org.apache.spark.ml.recommendation.{ALS, ALSModel}
