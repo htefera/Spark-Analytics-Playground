@@ -20,7 +20,7 @@ Approach
 1. We union training records for spam and no spam into a single dataframe, the same operation is done for the training set too.
 1. We normalize the email text, we apply normalization as we term frequency as the basis
 for classification and having discrete email addresses,
-2. construct a pipeline to apply the transformation. We perform word tokoneziation the words and stop word removal operation. We use a hashing term frequency transform to count the word occurrences and we calculate the inverse document frequency and this forms our feature vector.
+2. We construct a pipeline to apply the transformation. We perform word tokoneziation the words and stop word removal operation. We use a hashing term frequency transform to count the word occurrences and we calculate the inverse document frequency and this forms our feature vector.
 3.  We train a Logistic Regression and SVM model with transformed training data
 4.  We use the testing set to make predictions using the model
 5.  We compute RoC, Accuracy, Precision and Recall metrics and display a confusion matrix for the benefit of the user
