@@ -71,9 +71,37 @@ Exploration
 * Finding the common support for all pair of the first 100 movies 
 For developing the recommender system we apply Baseline Predictor and Collaborative Filtering algorithms
 
-Baseline Predictor
+#### Baseline Predictor
 
-Collaborative Filtering
+We build a model that implements Spark’s model abstraction. We approached the problem as follows
+1. We compute the mean ratings for all movie
+2. For each user, user bias is the difference between overall average ratings and average user rating
+3. For each movie, movie bias is the difference between overall average ratings and average movie rating
+4. Baseline model is created with overall means, user and movie bias
+
+#### Collaborative Filtering
+1. Spark supports Alternating Least Squares (ALS) matrix factorization for collaborative filtering
+2. We initialize ALS with 50 maximum iterations and 25 latent factors
+3. We instruct spark to checkout frequently to avoid StackOverFlow exception resulting from deep recursions performed by ALS
+
+#### Evaluation 
+In order to see the recommednation accuracy we need to evaluate both models. For model evaluation we approached as follows
+
+1. We randomly split the rating dataset into train (70%) and test sets (30%)
+2. Training the models using training set
+3. We use the test set to make predictions
+4. We use regression evaluator to calculate root mean square error
+![Recommednation](Images/r.png)
+<div align="center">
+ Figure : RMSE of Baseline Predictor Vs Collaborative filtering
+ </div>
+ 
+
+Recommendations
+As we can see from above, since the ALS model has the lowest RMSE we use it for recommending best movie for all
+users.  
+
+
 
 ### [4. Spatial Data Analysis](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Spatial%20Data%20Analysis)
 
