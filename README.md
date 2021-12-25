@@ -16,10 +16,10 @@ The project is decomposed into the following sub tasks
 
 Approach
 
-1. A
-1. B
-1. C
-2. 
+1. We read the CSV files as dataframe and add a column “spam” to denote if the read record is spam or not
+1. We union training records for spam and no spam into a single dataframe, the same operation is done for the training set too.
+1. We normalize the email text, we apply normalization a
+2. construct a pipeline to apply the transformation 
 ### [2. Clustering](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Clustering)
 ### [3. Recommednation System](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Recommendation%20Systems)
 ### [4. Spatial Data Analysis](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Spatial%20Data%20Analysis)
