@@ -1,4 +1,4 @@
-package org.snithish
+package org.haftamu
 
 import org.apache.spark.ml.evaluation.BinaryClassificationEvaluator
 import org.apache.spark.ml.feature.{HashingTF, IDF, RegexTokenizer, StopWordsRemover}
