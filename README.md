@@ -50,6 +50,15 @@ Centroid Visualization
 4. This array is then projected as a grayscale image
 5. The plot is saved
 
+The centroids classification using python looks like as shown below.
+
+
+![Clustering](Images/c.png)
+ <div align = "center">
+  Figure : Cenroid classification
+  </div>
+  
+
 ### [3. Recommednation System](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Recommendation%20Systems)
 
 The goal of the task is for creating a movie recommender system.
