@@ -51,6 +51,9 @@ Centroid Visualization
 5. The plot is saved
 
 ### [3. Recommednation System](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Recommendation%20Systems)
+
+The goal of the task is for creating a movie recommender system.
+
 ### [4. Spatial Data Analysis](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Spatial%20Data%20Analysis)
 
 
