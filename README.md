@@ -25,6 +25,9 @@ for classification and having discrete email addresses,
 3.  We train a Logistic Regression and SVM model with transformed training data
 4.  We use the testing set to make predictions using the model
 5.  We compute RoC, Accuracy, Precision and Recall metrics and display a confusion matrix for the benefit of the user
+
+![Logistic Regression](Images/lg.png)
+![SVM](Images/svm.png)
 ### [2. Clustering](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Clustering)
 ### [3. Recommednation System](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Recommendation%20Systems)
 ### [4. Spatial Data Analysis](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Spatial%20Data%20Analysis)
