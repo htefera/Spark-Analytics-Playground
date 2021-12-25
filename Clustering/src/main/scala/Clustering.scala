@@ -1,4 +1,4 @@
-package org.snithish
+package org.haftamu
 
 import org.apache.spark.ml.clustering.KMeans
 import org.apache.spark.ml.feature.{StandardScaler, StandardScalerModel}
