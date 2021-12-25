@@ -104,6 +104,26 @@ users.
 
 ### [4. Spatial Data Analysis](https://github.com/htefera/Scalable-Data-Science-Assignment-2/tree/master/Spatial%20Data%20Analysis)
 
+The task for counting tweets per neighbourhood. 
+
+Approach:
+1. Since our objective is to count the number of tweets, and we notice that there are multiple tweets from the same location, we read the location coordinates and aggregate  them to get the total number of tweets for each point. This reduces the number of points that will be involved in the joint operation.
+2. The number of tweets is treated as user data and we convert point into WKT representation for easy loading to geometric RDD
+3. We read the neighborhood WKT file and assign line number as user data
+4. We partition tweetRDD using RTree partitioning type, we use this since we are performing a join with polygons; RTree will construct enveloping polygons
+5. We partition neighborhoodRdd using RTree too. we construct indexes on either tweetRdd or neighborhoodRdd, both or none.
+6. Since we are looking at a ST_CONTAINS inequivalent query, we sent join param to not consider boundary intersection and be eliminate duplicates
+7. After join, we extract the line number user data from neighborhoodRdd and count from tweetRdd
+8. We apply reduce operator to find total number of tweets per neighborhood
+
+
+The whole operation is visualized as Spark DAG.
+
+![DAG](Images/dag.png)
+
+
+
+
 
 
 
