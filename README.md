@@ -120,6 +120,26 @@ Approach:
 The whole operation is visualized as Spark DAG.
 
 ![DAG](Images/dag.png)
+<div align="center">
+ Figure : Spatial Data Analysis DAG visualization
+ 
+ </div>
+ 
+ 
+ 
+ ![Time](Images/index.png)
+ <div aling="center">
+ Figure:  Performance comparison of various settings and Spatial Indexes
+ </div>
+ 
+ <br>
+ 
+We observe from the results that RTree index on points had reduced execution times the most
+and without any indexes execution times are significantly faster.
+After analyzing spatialJoin logic from Sedona, we can observe that even if both spatial
+geometries are indexed, join makes use of only one of them for index lookups
+
+
 
 
 
