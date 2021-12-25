@@ -1,0 +1,7 @@
+No Index took 886299.705826ms
+R Tree Index on Neighborhood took 785361.710968ms
+R Tree Index on Tweets took 771302.71562ms
+R Tree Index on Both took 786113.892746ms
+Quad Tree Index on Neighborhood took 790071.203176ms
+Quad Tree Index on Tweets took 803977.003314ms
+Quad Tree Index on Both took 771422.97295ms
