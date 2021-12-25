@@ -6,7 +6,7 @@ The goal of the project is to process various data using various data mining tas
 * Language: Scala, Java, Python
 * IDE: IntelliJ IDEA, Google Colab
 * Build tool: Maven
-* Apache Spark, Spark SQL
+* Apache Spark, Spark SQL and GeoSpark
 
 
 The project is decomposed into the following sub tasks
