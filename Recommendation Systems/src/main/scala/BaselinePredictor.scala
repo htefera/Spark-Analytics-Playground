@@ -1,4 +1,4 @@
-package org.snithish
+package org.haftamu
 
 import org.apache.spark.ml.param.ParamMap
 import org.apache.spark.ml.util.Identifiable
