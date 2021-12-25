@@ -3,7 +3,7 @@
 The goal of the project is to process various data using various data mining tasks with Scala and Apache Spark.
 
 ### Tools
-* Language: Scala, Java, Python
+* Language: Scala, Python and Shell
 * IDE: IntelliJ IDEA, Google Colab
 * Build tool: Maven
 * Apache RDDs, Spark DataFrames and GeoSpark Spatial RDDs
