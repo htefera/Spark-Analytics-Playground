@@ -1,5 +1,4 @@
-# Scalable Data Science- Technical University of Berlin
-
+# Scalable Data Science 
 The goal of the project is to process various data using various data mining tasks with Scala and Apache Spark.
 
 ### Tools
