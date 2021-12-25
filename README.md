@@ -5,8 +5,8 @@ The goal of the project is to process various data using various data mining tas
 ### Tools
 * Language: Scala, Java, Python
 * IDE: IntelliJ IDEA, Google Colab
-* Build too: Maven
-* 
+* Build tool: Maven
+
 
 The project is decomposed into the following sub tasks
 
