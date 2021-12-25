@@ -50,7 +50,7 @@ Centroid Visualization
 4. This array is then projected as a grayscale image
 5. The plot is saved
 
-The centroids classification using python looks like as shown below.
+The generated centroids are shown below
 
 
 ![Clustering](Images/c.png)
