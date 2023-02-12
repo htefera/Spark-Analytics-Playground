@@ -1,11 +1,13 @@
-# Scalable Data Science 
-The goal of the project is to process various data using various data mining tasks with Scala and Apache Spark.
+## Course Project
+# Course Name: Scalable Data Science 
+
+The goal of the project is to process various data for classification, clustering, recommendation systems, and spatial data analysis tasks with Scala and Spark
 
 ### Tools
-* Language: Scala, Python and Shell
-* IDE: IntelliJ IDEA, Google Colab
-* Build tool: Maven
-* Apache RDDs, Spark DataFrames and GeoSpark Spatial RDDs
+*  Scala, Python and Shell
+*  IntelliJ IDEA, Google Colab
+*  Maven build tool
+*  Apache RDDs, Spark DataFrames and GeoSpark Spatial RDDs
 
 
 The project is decomposed into the following sub tasks
