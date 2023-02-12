@@ -10,6 +10,11 @@ The goal of the project is to process various data for classification, clusterin
 *  Maven and SBT build tools
 *  Apache RDDs, Spark DataFrames and GeoSpark Spatial RDDs
 
+## Algorithms
+* SVM
+* Logistic Regression
+* K-means clustering
+* 
 ## Datasets
 
 * Email spam datasets
