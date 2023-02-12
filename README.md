@@ -5,9 +5,19 @@ The goal of the project is to process various data for classification, clusterin
 
 ### Tools
 *  Scala, Python and Shell
+*  Spark ML
 *  IntelliJ IDEA, Google Colab
-*  Maven build tool
+*  Maven and SBT build tools
 *  Apache RDDs, Spark DataFrames and GeoSpark Spatial RDDs
+
+## Datasets
+
+* Email spam datasets
+* MNIST dataset of handwritten digits
+* Ratings and Movies datasets
+* NYC geo-tagged tweets
+* NYC polygon dataset in WKT format that contains 172 polygons corresponding
+ to the neighborhood regions in New YorK
 
 
 The project is decomposed into the following sub tasks
