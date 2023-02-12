@@ -15,7 +15,7 @@ The goal of the project is to process various data for classification, clusterin
 * Email spam datasets
 * MNIST dataset of handwritten digits
 * Ratings and Movies datasets
-* NYC geo-tagged tweets
+* NYC geotagged tweet datasets
 * NYC polygon dataset in WKT format that contains 172 polygons corresponding
  to the neighborhood regions in New YorK
 
