@@ -14,7 +14,6 @@ The goal of the project is to process various data for classification, clusterin
 * SVM
 * Logistic Regression
 * K-means clustering
-* 
 ## Datasets
 
 * Email spam datasets
