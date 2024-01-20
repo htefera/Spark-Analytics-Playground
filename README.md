@@ -1,5 +1,5 @@
 ## Course Project
-# Course Name: Scalable Data Science 
+# Spark Analytics Playground
 
 The goal of the project is to process various data for classification, clustering, recommendation systems, and spatial data analysis tasks with Scala and Spark
 
